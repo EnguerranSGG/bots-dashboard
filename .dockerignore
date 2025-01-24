@@ -1,0 +1,42 @@
+# Dependencies
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# IDE - IntelliJ IDEA
+.idea
+*.iml
+*.iws
+*.ipr
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Angular specific
+/dist
+/tmp
+/out-tsc
+/bazel-out
+.angular
+
+# Misc
+.git
+.gitignore
+README.md
+*.md
+.env
+.env.*
+*.log
+coverage/
+documentation/
+e2e/ 
